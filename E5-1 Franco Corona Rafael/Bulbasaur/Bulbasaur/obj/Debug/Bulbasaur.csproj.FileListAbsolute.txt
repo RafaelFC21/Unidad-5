@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\bin\Debug\Bulbasaur.exe.config
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\bin\Debug\Bulbasaur.exe
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\bin\Debug\Bulbasaur.pdb
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\obj\Debug\Bulbasaur.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\obj\Debug\Bulbasaur.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\obj\Debug\Bulbasaur.exe
+C:\Users\Acer\source\repos\Bulbasaur\Bulbasaur\obj\Debug\Bulbasaur.pdb
