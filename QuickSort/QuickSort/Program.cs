@@ -10,7 +10,7 @@ namespace QuickSort
     {
         static void Main(string[] args)
         {
-            Arreglos arreglos = new Arreglos();//Se crea el objeto de la clase Arreglos.
+            Arreglos arreglos = new Arreglos();
         }
     }
 }

@@ -8,16 +8,19 @@ namespace QuickSort
 {
     class Arreglos
     {   //Se crean nuevos vectores, 1 para cada acomodo.
-        double[] A = new double[10] { 11, 2, 3, 14, 18, 45, -3, -1, 6, 9 };
-        double[] B = new double[12] { 1, 3, 5, 7, 8, 3, 9, .7071, 16.5664, 12, 0, 10 };
-        double[] C = new double[12] { 3, 7, 15, 4 / 3, 155, 100, 15, Math.Sqrt(3), 5, 2, 3, 2 };
-        double[] D = new double[10] { 8, 19, 7, 3, 15, 23, 34, 27, 89, 101 };
+        double[] A = { 11, 2, 3, 14, 18, 45, -3, -1, 6, 9 };
+        double[] B = { 1, 3, 5, 7, 8, 3, 9, Math.Sqrt(2)/2, 16.5664, 12, 0, 10 };
+        double[] C = { 3, 7, 15, 4 / 3, 155, 100, 15, Math.Sqrt(3), 5, 2, 3, 2 };
+        double[] D = { 8, 19, 7, 3, 15, 23, 34, 27, 89, 101 };
 
         public Arreglos()
         {
             Console.WriteLine("------------------Quick Sort------------------\n");
             Console.WriteLine("Vectores normales: ");
-            Desplegar();//Se manda a llamar el metodo desplegar.
+            Desplegar(1, A.Length, A);
+            Desplegar(2, B.Length, B);
+            Desplegar(3, C.Length, C);
+            Desplegar(4, D.Length, D); //Se manda a llamar el metodo desplegar.
             Console.WriteLine("Presione <Enter> para continuar...");
             Console.ReadLine();
             Console.Clear();
@@ -28,7 +31,10 @@ namespace QuickSort
             Quicksort(C, 0, 11);
             Quicksort(D, 0, 9);
             Console.WriteLine("Vectores ordenados: ");
-            Desplegar();//Se manda a llamar el metodo desplegar.
+            Desplegar(1, A.Length, A);
+            Desplegar(2, B.Length, B);
+            Desplegar(3, C.Length, C);
+            Desplegar(4, D.Length, D);//Se manda a llamar el metodo desplegar.
             Console.WriteLine("Presione <Enter> para salir...");
             Console.ReadLine();
         }
@@ -67,28 +73,13 @@ namespace QuickSort
             }
         }
 
-        public void Desplegar()//Metodo para desplegar cada uno de los vectores ya ordenados.
+        public void Desplegar(int n_arreglo, int valor, double[] arreglo)//Metodo para desplegar cada uno de los vectores ya ordenados.
         {
             //Cada vez que el contador aumente en 1 despliega el valor del elemento del arreglo en la posicion del contador.
-            Console.WriteLine("Vector 1: ");
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine("Vector {0}: ", n_arreglo);
+            for (int i = 0; i < valor; i++)
             {
-                Console.Write("{0} ", A[i]);
-            }
-            Console.WriteLine("\nVector 2: ");
-            for (int i = 0; i < 12; i++)
-            {
-                Console.Write("{0} ", B[i]);
-            }
-            Console.WriteLine("\nVector 3: ");
-            for (int i = 0; i < 12; i++)
-            {
-                Console.Write("{0} ", C[i]);
-            }
-            Console.WriteLine("\nVector 4: ");
-            for (int i = 0; i < 10; i++)
-            {
-                Console.Write("{0} ", D[i]);
+                Console.Write("{0} ", arreglo[i]);
             }
             Console.WriteLine();
         }

@@ -1,7 +1,7 @@
-C:\Users\Acer\source\repos\QuickSort\QuickSort\obj\Debug\QuickSort.csprojAssemblyReference.cache
-C:\Users\Acer\source\repos\QuickSort\QuickSort\obj\Debug\QuickSort.csproj.CoreCompileInputs.cache
-C:\Users\Acer\source\repos\QuickSort\QuickSort\bin\Debug\QuickSort.exe.config
-C:\Users\Acer\source\repos\QuickSort\QuickSort\bin\Debug\QuickSort.exe
-C:\Users\Acer\source\repos\QuickSort\QuickSort\bin\Debug\QuickSort.pdb
-C:\Users\Acer\source\repos\QuickSort\QuickSort\obj\Debug\QuickSort.exe
-C:\Users\Acer\source\repos\QuickSort\QuickSort\obj\Debug\QuickSort.pdb
+C:\Users\PC\Desktop\QuickSort\QuickSort\bin\Debug\QuickSort.exe.config
+C:\Users\PC\Desktop\QuickSort\QuickSort\bin\Debug\QuickSort.exe
+C:\Users\PC\Desktop\QuickSort\QuickSort\bin\Debug\QuickSort.pdb
+C:\Users\PC\Desktop\QuickSort\QuickSort\obj\Debug\QuickSort.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\QuickSort\QuickSort\obj\Debug\QuickSort.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\QuickSort\QuickSort\obj\Debug\QuickSort.exe
+C:\Users\PC\Desktop\QuickSort\QuickSort\obj\Debug\QuickSort.pdb
