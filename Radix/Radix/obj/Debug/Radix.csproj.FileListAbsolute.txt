@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\Radix\Radix\bin\Debug\Radix.exe.config
+C:\Users\Acer\source\repos\Radix\Radix\bin\Debug\Radix.exe
+C:\Users\Acer\source\repos\Radix\Radix\bin\Debug\Radix.pdb
+C:\Users\Acer\source\repos\Radix\Radix\obj\Debug\Radix.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\Radix\Radix\obj\Debug\Radix.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Radix\Radix\obj\Debug\Radix.exe
+C:\Users\Acer\source\repos\Radix\Radix\obj\Debug\Radix.pdb
